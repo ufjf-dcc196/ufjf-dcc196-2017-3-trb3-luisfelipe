@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Trabalho3DCC196</string>
+    <string name="tarefa">Tarefas:</string>
+    <string name="adicionar_tarefa">Adicionar Tarefa</string>
+    <string name="adicionar_teg">Adicionar Teg</string>
+    <string name="titulo">Título</string>
+    <string name="descricao">Descrição</string>
+    <string name="concluir">Concluir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="tegzar">Tegzar</string>
+    <string name="estado">Estado:</string>
+    <string name="dificuldade">Dificuldade</string>
+    <string name="label_dificuldade">Dificuldade:</string>
+    <string name="label_tags">Tags:</string>
+    <string name="etiqueta">Etiqueta</string>
+    <string name="voltar">Voltar</string>
+</resources>
