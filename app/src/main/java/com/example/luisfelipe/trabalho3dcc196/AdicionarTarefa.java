@@ -40,6 +40,7 @@ public class AdicionarTarefa extends AppCompatActivity {
         niveisDificuldade.add("5");
 
         ArrayList<String> tiposEstado = new ArrayList();
+        tiposEstado.add("A Fazer");
         tiposEstado.add("Em Execução");
         tiposEstado.add("Bloqueada");
         tiposEstado.add("Concluida");

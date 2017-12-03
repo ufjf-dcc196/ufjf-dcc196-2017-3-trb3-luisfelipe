@@ -51,6 +51,7 @@ public class EditarTarefa extends AppCompatActivity {
         niveisDificuldade.add("5");
 
         ArrayList<String> tiposEstado = new ArrayList();
+        tiposEstado.add("A Fazer");
         tiposEstado.add("Em Execução");
         tiposEstado.add("Bloqueada");
         tiposEstado.add("Concluida");
@@ -73,12 +74,14 @@ public class EditarTarefa extends AppCompatActivity {
 
         titulo.setText(t.getTitulo());
         descricao.setText(t.getDescricao());
-        if(t.getEstado().equals("Em Execução")){
+        if(t.getEstado().equals("A Fazer")){
             estado.setSelection(0);
-        }else if(t.getEstado().equals("Bloqueada")) {
+        }else if(t.getEstado().equals("Em Execução")){
             estado.setSelection(1);
-        }else if(t.getEstado().equals("Concluida")) {
+        }else if(t.getEstado().equals("Bloqueada")) {
             estado.setSelection(2);
+        }else if(t.getEstado().equals("Concluida")) {
+            estado.setSelection(3);
         }
         dificuldade.setSelection(t.getDificuldade()-1);
 
